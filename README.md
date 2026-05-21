@@ -1,6 +1,3 @@
-![img.png](../../../../test/img.png)
-
-
 ## Creational Patterns
 1. Factory -> Handles object creation in a centralized manner. No repeating code
 2. Abstract -> not asked often
@@ -45,5 +42,16 @@ How objects interact and communicate with each other
 1. Adapter: Acts as a bridge between two incompatible interfaces, allowing them to work together without
    altering their underlying code. 
 2. Bridge Pattern: Picture a suspension bridge. The cable support the bridge deck, but the two components are separate and
-   can be changed independently.
+   can be changed independently. lets us split a large class into two separate hierarchies- abstraction and implementation
+   which can be developed independently of each other. 
+3. Composite pattern (building a hierarchy): Like a tree. A tree is composed of branches, and each branch can have smaller branches
+    or leaves. This lets us treat individual objects and groups of objects uniformly, making it easier to work with complex hierarchies. 
+4. Decorator Pattern: Customizing on the fly
+   Decorating a cake-> add layers of frosting, sprinklers, etc. enhancing final product without altering the base. 
+    Allows you to dynamically add new behaviours or responsibilities without modifying their structure. 
+5. Facade pattern: Simplifying complexity. Walking into smart home. Instead of controlling each device manually, you press a button to activate the entire system. It provides a simplified interface to a complex subsystem, making it easier to interact without dealing with all the underlying details. 
+6. Flyweight pattern: Sharing resources efficiently 
+   Minimizes memory usage by sharing common parts of objects while allowing unique details for each instance
+7. Proxy Pattern: (The Middleman): As the name suggests, it provides a placeholder or surrogate for another object, controlling access to it or adding extra behavior. 
+
    
