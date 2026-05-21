@@ -38,5 +38,12 @@ How objects interact and communicate with each other
    (Make improvements) Allows new operations to be added to objects without modifying their structure.
 10. Memento Pattern (Like nintendo -> Game save feature)
     Capture an object's state and restore it later. (Undo features and rollback functionality)
-   
+
+
+
+## Structural design patterns 
+1. Adapter: Acts as a bridge between two incompatible interfaces, allowing them to work together without
+   altering their underlying code. 
+2. Bridge Pattern: Picture a suspension bridge. The cable support the bridge deck, but the two components are separate and
+   can be changed independently.
    
