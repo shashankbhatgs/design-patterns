@@ -52,6 +52,28 @@ How objects interact and communicate with each other
 5. Facade pattern: Simplifying complexity. Walking into smart home. Instead of controlling each device manually, you press a button to activate the entire system. It provides a simplified interface to a complex subsystem, making it easier to interact without dealing with all the underlying details. 
 6. Flyweight pattern: Sharing resources efficiently 
    Minimizes memory usage by sharing common parts of objects while allowing unique details for each instance
-7. Proxy Pattern: (The Middleman): As the name suggests, it provides a placeholder or surrogate for another object, controlling access to it or adding extra behavior. 
+7. Proxy Pattern: (The Middleman): As the name suggests, it provides a placeholder or surrogate for another object, controlling access to it or adding extra behavior.
+
+Bridge: Used beforehand to design flexible extensible systems
+Adapter: Used after an existing interface is found to be incompatible (Like connecting Macbook and usb b type pendrive. We cant change macbook type).
+
+
+Important patterns to focus 
+## Creational Pattern  
+--> Factory Method  
+--> Abstract Factory  
+--> Singleton  
+--> Builder
+## Behavioral Pattern  
+--> Observer  
+--> Strategy  
+--> Command  
+--> State  
+--> Template Method
+## Structural Pattern  
+--> Decorator  
+--> Adapter  
+--> Facade  
+--> Composite
 
    
