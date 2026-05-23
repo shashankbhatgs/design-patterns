@@ -57,6 +57,10 @@ How objects interact and communicate with each other
 Bridge: Used beforehand to design flexible extensible systems
 Adapter: Used after an existing interface is found to be incompatible (Like connecting Macbook and usb b type pendrive. We cant change macbook type).
 
+The Bridge Design Pattern is a structural design pattern that separates:
+Abstraction → the high-level logic/API
+Implementation → the actual low-level behavior
+
 
 Important patterns to focus 
 ## Creational Pattern  
