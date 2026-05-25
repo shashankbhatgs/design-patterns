@@ -44,3 +44,36 @@ Game
 Game
  → board.placeMove(position, player.getSymbol())
 ```
+
+
+UMl Diagram
+```text
++-------------------+
+|       Game        |
++-------------------+
+| - board           |
+| - players         |
+| - currentPlayer   |
+| - winningStrategy |
+| - status          |
++-------------------+
+
+         HAS-A
+
++-------------------+
+|      Board        |
++-------------------+
+
++-------------------+
+|      Player       |
++-------------------+
+| - symbol          |
+| - strategy        |
++-------------------+
+
+         HAS-A
+
++-------------------+
+|   MoveStrategy    |
++-------------------+
+```
