@@ -1,4 +1,4 @@
-package problems.tictactoe.selfandllm;
+package problems.tictactoe;
 
 public class DefaultWinningStrategy implements WinningStrategy {
     @Override

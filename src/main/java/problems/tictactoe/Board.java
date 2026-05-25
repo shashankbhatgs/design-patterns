@@ -1,4 +1,4 @@
-package problems.tictactoe.selfandllm;
+package problems.tictactoe;
 
 // Always ask: “Does this class truly have enough knowledge to own this behavior?”
 // You generally do NOT want external objects mutating your internal state directly.

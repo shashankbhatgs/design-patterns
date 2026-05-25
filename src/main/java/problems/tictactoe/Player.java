@@ -1,4 +1,4 @@
-package problems.tictactoe.selfandllm;
+package problems.tictactoe;
 
 public class Player {
     private final char symbol;

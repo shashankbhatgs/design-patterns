@@ -1,4 +1,4 @@
-package problems.tictactoe.selfandllm;
+package problems.tictactoe;
 
 public enum MoveStatus {
     SUCCESS,

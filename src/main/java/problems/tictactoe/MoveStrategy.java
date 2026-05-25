@@ -1,4 +1,4 @@
-package problems.tictactoe.selfandllm;
+package problems.tictactoe;
 
 public interface MoveStrategy {
     Position makeMove(Board board);
