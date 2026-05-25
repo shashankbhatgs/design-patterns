@@ -32,3 +32,15 @@ Else switch player
 
 
 Prefer expressive state models over ambiguous booleans when multiple states exist. 
+
+
+
+```text
+Game
+ → Player.makeMove(board)
+      → strategy.makeMove(board)
+           → returns Position
+
+Game
+ → board.placeMove(position, player.getSymbol())
+```
